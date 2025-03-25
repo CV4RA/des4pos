@@ -1,10 +1,10 @@
 <p align="center">
 <h1 align="center">Text-Driven Cross-Modal Place Recognition Method for Remote Sensing Localization</h1>
  <p align="center">
-**Tianyi Shang, Zhenyu Li*, Pengjie Xu, Zhaojun Deng, Ruirui Zhang**
+Tianyi Shang, Zhenyu Li*, Pengjie Xu, Zhaojun Deng, Ruirui Zhang
 </p>
 <p align="center">
-**Qilu University of Technology (Shandong Academy of Sciences)**
+Qilu University of Technology (Shandong Academy of Sciences)
 </p>
 
 This repository is the official implementation of Des4Pos ([paper](https://arxiv.org/pdf/2503.18035)) 🔥🔥🔥🔥🔥🔥

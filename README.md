@@ -1,6 +1,13 @@
-# Des4Pos
-This repository is the official implementation of Des4Pos ([paper](https://arxiv.org/pdf/2503.18035)) 🔥🔥🔥🔥🔥🔥
+<p align="center">
+<h1 align="center">Text-Driven Cross-Modal Place Recognition Method for Remote Sensing Localization</h1>
+ <p align="center">
+Tianyi Shang, Zhenyu Li*, Pengjie Xu, Zhaojun Deng, Ruirui Zhang
+</p>
+<p align="center">
+Qilu University of Technology (Shandong Academy of Sciences)
+</p>
 
+This repository is the official implementation of Des4Pos ([paper](https://arxiv.org/pdf/2503.18035)) 🔥🔥🔥🔥🔥🔥
 ###  Introduction
   Environment description-based localization in large-scale point-cloud maps constructed with multi-sensor systems holds critical significance for future mobile robotics and large-scale autonomous systems, such as in addressing 'last mile' challenges for sensor-equipped delivery robots. Existing text-to-point-cloud localization methods follow a two-stage paradigm: retrieving candidate submaps from the entire point-cloud map using text queries (coarse stage) and then predicting specific coordinates within these submaps (fine stage). However, current approaches face persistent challenges, including the failure of point-cloud encoders to adequately capture local details and long-range spatial relationships, as well as a substantial modality gap between text and point-cloud representations.
 To address these limitations, we propose Des4Pos, a novel two-stage localization framework. During the coarse stage, Des4Pos's point-cloud encoder employs a Multi-scale Fusion Attention Mechanism (MFAM) to enhance local geometric features, followed by a bidirectional LSTM module to amplify global spatial relationships. Simultaneously, the Stepped Text Encoder (STE) incorporates cross-modal prior knowledge from CLIP \cite{radford2021learning} and aligns text and point-cloud features using the prior, thereby bridging modality discrepancies. In the fine stage, we propose a Cascaded Residual Attention (CRA) module to fuse cross-modal features and predict relative position offsets, thereby achieving higher localization precision. \\

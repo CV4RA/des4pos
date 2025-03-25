@@ -25,7 +25,7 @@ To address these limitations, we propose Des4Pos, a novel two-stage localization
 Create a conda environment and install basic dependencies:
 ```bash
 git clone https://github.com/nuozimiaowu/Des4Pos
-cd MambaPlace
+cd Des4Pos
 
 conda create -n Des4Pos python=3.10
 conda activate Des4Pos
